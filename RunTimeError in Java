@@ -1,0 +1,10 @@
+public class RunTimeError {
+	public static void main(String[] args) {
+		 int arr[] = new int[7]; 
+		     // Array size is 7 
+	        // whereas this statement assigns 
+	        // value 25 at the 10th position. 
+	        arr[8] = 25; 
+	        System.out.println("Value assigned! "); 
+	}
+}
