@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class Survey {
+  public static void main(String[] args) {
+	  Scanner userInput = new Scanner(System.in); 
+	  System.out.println("Do you want to Take Survey");  
+	    //String input = userInput.nextline();
+	  String input = userInput.nextLine();
+	    if (input.equalsIgnoreCase("YES")){
+	        System.out.println("Continue");
+	    }
+	    else if (input.equals("NO")){
+	    	System.out.println("Exit");
+	    }
+  }
+}
